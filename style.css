@@ -14,9 +14,27 @@ body {margin: 0;}
 
 
 .bildspel {
-    width: 50%;
-    align-tracks: center;
+    height: 50%;
+    width: 100%;
 }
 .bildspel img {
    height: 100%; 
+}
+
+
+.VarMat {
+    background-image: url("/vår mat bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    color: wheat;
+    height: 50%;
+    
+
+}
+.VarMat h2 {
+
+}
+.VarMat p {
+    /* font-size: large; */
 }
