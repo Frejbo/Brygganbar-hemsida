@@ -1,0 +1,22 @@
+body {margin: 0;}
+
+.topbar {
+    text-align: center;
+    background-color: #4A3535;
+    color: wheat;
+    padding: 1%;
+}
+
+.topnav button {
+    font-size: large;
+    margin-inline: 1%;
+}
+
+
+.bildspel {
+    width: 50%;
+    align-tracks: center;
+}
+.bildspel img {
+   height: 100%; 
+}
