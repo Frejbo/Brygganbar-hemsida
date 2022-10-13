@@ -9,29 +9,63 @@ body {margin: 0;}
 
 .topnav button {
     font-size: large;
-    margin-inline: 1%;
+    /* margin-inline: 1%; */
 }
 
 
 .bildspel {
     height: 50%;
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    background-color: #7D675A;
 }
 .bildspel img {
-   height: 100%; 
+   height: 50%; 
 }
 
-
-.VarMat {
+/* .VarMat {
     background-image: url("/vår mat bg.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
     color: wheat;
     height: 50%;
-    
-
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
+
+.VarMat_bilder img {
+    width: 100%;
+    border-radius: 50px;
+    padding: 2%;
+}
+.VarMat_bilder {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+} */
+.VarMat img {
+    height: 30vh;
+    border-radius: 40px;
+    margin: 2%;
+    box-shadow: 1px 2px 16px black;
+}
+.text {grid-area: text;}
+.image1 {grid-area: image1;}
+.image2 {grid-area: image2;}
+.VarMat {
+    display: grid;
+    grid-template-areas:
+    'text image2'
+    'text image1';
+    height: 50%;
+    align-items: center;
+    background-image: "/vår mat bg.jpeg";
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .VarMat h2 {
 
 }
