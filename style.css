@@ -7,7 +7,14 @@ body {margin: 0;}
     padding: 1%;
 }
 
-.topnav button {
+.topnav a {
+    text-decoration:none;
+    color: #3f2c2c;
+    background-color:#cebcb7;
+    margin: 1%;
+    padding: .5%;
+    border-radius: 10px;
+    border: 3px solid #ae946d;
     font-size: large;
     /* margin-inline: 1%; */
 }
@@ -54,15 +61,15 @@ p {
     margin: 2%;
     box-shadow: 1px 2px 16px black;
 }
-.text {grid-area: text;}
+.varmat_text {grid-area: varmat_text;}
 .image1 {grid-area: image1;}
 .image2 {grid-area: image2;}
 .VarMat {
     display: grid;
     grid-template-areas:
     /* 'image1 text image2'; */
-    'text image2'
-    'text image1';
+    'varmat_text image2'
+    'varmat_text image1';
     height: 50%;
     align-items: center;
     background-image: url("var mat bg.jpeg");
@@ -71,18 +78,27 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-.VarMat h2 {
+.varmat_text {
     color: white;
-    margin-bottom: 5%;
     margin-left: 10%;
     margin-right: 10%;
+
+}
+.VarMat h2 {
+    margin-bottom: 5%;
 }
 .VarMat p {
-    color: white;
+    /* color: white; */
 
     /* font-size: large; */
+    margin-bottom: 3%;
+}
+.varmat_text a p {
+    margin-top: 5%;
+    color: black;
+    text-decoration: underline;
+}
+.varmat_text a {
     margin-top: 3%;
-    margin-left: 10%;
-    margin-right: 10%;
+    box-shadow: 1px 2px 8px 0px rgba(46, 46, 46, 0.6);
 }
