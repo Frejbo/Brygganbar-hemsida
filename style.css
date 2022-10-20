@@ -12,9 +12,12 @@ body {margin: 0;}
     /* margin-inline: 1%; */
 }
 
+p {
+    font-family: Garamond;
+}
 
 .bildspel {
-    height: 50%;
+    height: 50vh;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -22,7 +25,7 @@ body {margin: 0;}
     background-color: #7D675A;
 }
 .bildspel img {
-   height: 50%; 
+   height: 45vh; 
 }
 
 /* .VarMat {
@@ -57,18 +60,29 @@ body {margin: 0;}
 .VarMat {
     display: grid;
     grid-template-areas:
+    /* 'image1 text image2'; */
     'text image2'
     'text image1';
     height: 50%;
     align-items: center;
-    background-image: "/vår mat bg.jpeg";
+    background-image: url("var mat bg.jpeg");
+    background-position: 50%;
+    grid-template-columns: repeat(auto-fit, 60%);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .VarMat h2 {
-
+    color: white;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .VarMat p {
+    color: white;
+
     /* font-size: large; */
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
