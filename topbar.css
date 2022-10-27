@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;   
+}
+.topbar {
+    text-align: center;
+    background-color: #4A3535;
+    color: wheat;
+    padding: 1%;
+}
+.topnav {
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.topnav a {
+    text-decoration:none;
+    margin: 1%;
+    padding: .5%;
+    border-radius: 10px;
+    font-size: large;
+    margin-inline: 1%;
+}
+.possible_page {
+    color: #3f2c2c;
+    background-color:#cebcb7;
+    border: 3px solid #ae946d;
+}
+.current_page {
+    color: #3f2c2c;
+    background-color: #948683;
+    border: 3px solid #ae946d;
+}
+.topnav :hover {
+    background-color:#e1cfca;
+}

@@ -5,71 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brygganbar Meny</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="topbar.css">
+    <link rel="stylesheet" href="meny.css">
 </head>
 <header>
     <div class="topbar">
         <h1>Välkommen till Brygganbar</h1>
         <div class="topnav">
-            <a>Öppetider</button>
-            <a href="meny.html">Meny</a>
-            <a>Om oss</a>
+            <a class="possible_page" href="index.html">Start</a>
+            <a class="possible_page">Öppetider</button>
+            <a class="current_page" href="meny.html">Meny</a>
+            <a class="possible_page">Om oss</a>
         </div>
     </div>
 </header>
 <body>
-    <div class="pizza">
-        <h2>Våra pizzor</h2>
-        <h3>Gräddö</h3>
-        <ul>
-            <li>Buffelmozzarella</li>
-        </ul>    
-        <h3>Räfsnäs</h3>
-        <ul>
-            <li>Salami</li>
-            <li>Parmesan</li>
-            <li>Ruccola</li>
-        </ul>
-        <h3>Södersvik</h3>
-        <ul>
-            <li>Prosciutto</li>
-            <li>Parmesan</li>
-            <li>Ruccola</li>
-        </ul>
-        <h3>Bryggan (bianco)</h3>
-        <ul>
-            <li>Chèvre</li>
-            <li>Valnötter</li>
-            <li>Honung</li>
-        </ul>
+    <div class="pizzakategori">
+        <h1>Våra pizzor</h1>
+        <div class="pizzor">
+            <div class="pizza">
+                <h3>Gräddö</h3>
+                <ul>
+                    <li>Buffelmozzarella</li>
+                </ul>
+            </div>
+            <div class="pizza">
+                <h3>Räfsnäs</h3>
+                <ul>
+                    <li>Salami</li>
+                    <li>Parmesan</li>
+                    <li>Ruccola</li>
+                </ul>
+            </div>
+            <div class="pizza">
+                <h3>Södersvik</h3>
+                <ul>
+                    <li>Prosciutto</li>
+                    <li>Parmesan</li>
+                    <li>Ruccola</li>
+                </ul>
+            </div>
+            <div class="pizza">
+                <h3>Bryggan (bianco)</h3>
+                <ul>
+                    <li>Chèvre</li>
+                    <li>Valnötter</li>
+                    <li>Honung</li>
+                </ul>
+            </div>
+        </div>
     </div>
     <hr>
     <div class="dricka">
-        <h2>Att dricka</h2>
-        <h3>Alkohol</h3>
-        <ul>
-            <li>Mariestad</li>
-            <li>Heineken</li>
-            <li>Norrlands ljus</li>
-            <li>Rött vin</li>
-            <li>Vitt vin</li>
-            <li>Rosé</li>
-            <li>Prosecco</li>
-            <li>Briska</li>
-            <li>Grängens (endast <a href="">eventkvällar</a>)</li>
-        </ul>
-        <h3>Alkoholfritt</h3>
-        <ul>
-            <li>Alkoholfri öl</li>
-            <li>Coca Cola</li>
-            <li>Coca Cola Zero</li>
-            <li>Fanta</li>
-            <li>San Pellegrino</li>
-            <li>Bubbelvatten</li>
-            <li>Äppelmust</li>
-            <li>Nocco</li>
-            <li>Vitamin Well</li>
-        </ul>
+        <h1>Att dricka</h1>
+        <div class="drickor">
+            <div class="drickkolumn">
+                <h3>Alkohol</h3>
+                <ul>
+                    <li>Mariestad</li>
+                    <li>Heineken</li>
+                    <li>Norrlands ljus</li>
+                    <li>Rött vin</li>
+                    <li>Vitt vin</li>
+                    <li>Rosé</li>
+                    <li>Prosecco</li>
+                    <li>Briska</li>
+                    <li>Grängens (endast <a href="">eventkvällar</a>)</li>
+                </ul>
+            </div>
+            <div class="drickkolumn">
+                <h3>Alkoholfritt</h3>
+                <ul>
+                    <li>Alkoholfri öl</li>
+                    <li>Coca Cola</li>
+                    <li>Coca Cola Zero</li>
+                    <li>Fanta</li>
+                    <li>San Pellegrino</li>
+                    <li>Bubbelvatten</li>
+                    <li>Äppelmust</li>
+                    <li>Nocco</li>
+                    <li>Vitamin Well</li>
+                </ul>
+            </div>
+        </div>
     </div>
 </body>
 </html>

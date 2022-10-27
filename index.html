@@ -5,15 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brygganbar</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="topbar.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <header>
     <div class="topbar">
         <h1>Välkommen till Brygganbar</h1>
         <div class="topnav">
-            <a>Öppetider</a>
-            <a href="meny.html">Meny</a>
-            <a>Om oss</a>
+            <a class="current_page" href="index.html">Start</a>
+            <a class="possible_page">Öppetider</a>
+            <a class="possible_page" href="meny.html">Meny</a>
+            <a class="possible_page">Om oss</a>
         </div>
     </div>
 </header>
@@ -21,7 +23,7 @@
     <div class="bildspel">
         <!-- <img src="arrow.png" alt="Visa föregående" style=""> -->
         <p>Visa föregående</p>
-        <img src="pizza.jpg" alt="Bild på vår pizza.">
+        <img src="pizza.webp" alt="Bild på vår pizza.">
         <p onclick="next">Visa nästa</p>
         <!-- <img src="arrow.png" alt="Visa nästa"> -->
     </div>
@@ -33,10 +35,10 @@
             <p>Eller svalka av dig med vår kulglass från Väddö gårdsmejeri!</p>
             <p>Varför inte komma ned och ta ett glas vin och en påse chips eller nötter?</p>
             <p>Eller bara kom ned och häng vid vattnet. Vi har bira så det räcker till alla!</p>
-            <a><p>Visa full meny</p></a>
+            <a href="meny.html"><p>Visa full meny</p></a>
         </div>
-        <img src="Pizza2.jpg" alt="Bild på vår pizza." class="image1">
-        <img src="Glass.jpg" alt="Bild på kulglass" class="image2">
+        <img src="pizza2.webp" alt="Bild på vår pizza." class="image1">
+        <img src="Glass.webp" alt="Bild på kulglass" class="image2">
     </div>
 </body>
 </html>

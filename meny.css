@@ -1,0 +1,57 @@
+.pizzakategori {
+    background-image: url("bakgrund.webp");
+    background-position: 50%;
+    background-size:cover;
+    color: wheat;
+    padding-bottom: 10%;
+}
+.pizzakategori h1 {
+    /* align-items: center; */
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-decoration: underline;
+    /* box-shadow: 1px 2px 16px black; */
+    text-shadow: 1px 3px 8px black;
+}
+.pizzor {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    place-items: center;
+}
+.pizza {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 30px;
+    padding: 10%;
+    align-self: center;
+    text-overflow: clip;
+    margin: 2%;
+    box-shadow: 1px 2px 16px rgba(0, 0, 0, 0.6);
+
+}
+.pizza:hover {
+    outline: 5px rgba(245, 222, 179, 0.7) double;
+}
+
+
+
+.dricka {
+    color: wheat;
+}
+.dricka h1 {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.drickor {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    place-items: center;
+    padding-bottom: 10%;
+}
+.drickkolumn {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 30px;
+    padding: 10%;
+    box-shadow: 1px 2px 16px rgba(0, 0, 0, 0.6);
+}
