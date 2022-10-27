@@ -16,18 +16,20 @@
 }
 .pizzor {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
     place-items: center;
 }
 .pizza {
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 30px;
-    padding: 10%;
+    padding: 30px;
     align-self: center;
     text-overflow: clip;
-    margin: 2%;
+    margin: 1%;
+    margin-top: 3%;
+    margin-bottom: 3%;
     box-shadow: 1px 2px 16px rgba(0, 0, 0, 0.6);
-
+    white-space: nowrap;
 }
 .pizza:hover {
     outline: 5px rgba(245, 222, 179, 0.7) double;
@@ -45,13 +47,25 @@
 }
 .drickor {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
     place-items: center;
     padding-bottom: 10%;
 }
 .drickkolumn {
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 30px;
-    padding: 10%;
+    padding: 40px;
     box-shadow: 1px 2px 16px rgba(0, 0, 0, 0.6);
+}
+
+
+@media (max-width: 800px) {
+    .pizzor {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 400px) {
+    .pizzor {
+        grid-template-columns: 1fr;
+    }
 }
