@@ -1,8 +1,6 @@
-p {
-    font-family: Garamond;
-}
 
-.bildspel {
+
+/* .bildspel {
     height: 50vh;
     width: 100%;
     display: grid;
@@ -12,7 +10,7 @@ p {
 }
 .bildspel img {
    height: 45vh; 
-}
+} */
 
 /* .VarMat {
     background-image: url("/vår mat bg.jpeg");
@@ -34,6 +32,16 @@ p {
     display: grid;
     grid-template-rows: 1fr 1fr;
 } */
+
+
+.start_image_page {
+    background-image: url("banner.webp");
+    background-size: cover;
+    background-position-y: 50%;
+    background-attachment: fixed;
+    height: 80vh;
+}
+
 .VarMat img {
     height: 30vh;
     border-radius: 40px;
