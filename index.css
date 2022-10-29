@@ -85,3 +85,13 @@ p {
     box-shadow: 1px 2px 8px 0px rgba(46, 46, 46, 0.6);
     text-decoration: none;
 }
+
+
+@media (max-width: 350px) {
+    .VarMat {
+        grid-template-areas:
+        'varmat_text'
+        'image1'
+        'image2';
+    }
+}
