@@ -16,15 +16,15 @@
 }
 .pizzor {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 2fr)); */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     place-items: center;
 }
 .pizza {
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 30px;
-    padding: 30px;
+    padding: 20px;
     align-self: center;
-    text-overflow: clip;
     margin: 1%;
     margin-top: 3%;
     margin-bottom: 3%;
@@ -39,6 +39,7 @@
 
 .dricka {
     color: wheat;
+    white-space: nowrap;
 }
 .dricka h1 {
     text-align: center;
@@ -47,24 +48,27 @@
 }
 .drickor {
     display: grid;
-    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     place-items: center;
     padding-bottom: 10%;
 }
 .drickkolumn {
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 30px;
-    padding: 40px;
+    padding: 30px;
+    margin: 1%;
+    margin-top: 3%;
+    margin-bottom: 3%;
     box-shadow: 1px 2px 16px rgba(0, 0, 0, 0.6);
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
     .pizzor {
         grid-template-columns: 1fr 1fr;
     }
 }
-@media (max-width: 400px) {
+@media (max-width: 350px) {
     .pizzor {
         grid-template-columns: 1fr;
     }
