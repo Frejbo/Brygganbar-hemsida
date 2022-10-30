@@ -33,13 +33,15 @@
     grid-template-rows: 1fr 1fr;
 } */
 
-
-.start_image_page {
+body {
     background-image: url("banner.webp");
     background-size: cover;
     background-position: 50%;
     background-position-y: 80%;
     background-attachment: fixed;
+}
+
+.start_image_page {
     padding-top: 20vh;
     padding-bottom: 20vh;
     display: grid;
@@ -100,6 +102,17 @@
     margin-top: 3%;
     box-shadow: 1px 2px 8px 0px rgba(46, 46, 46, 0.6);
     text-decoration: none;
+}
+
+
+.eventkväll {
+    color: wheat;
+    height: 50vh;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    place-items: center;
+    justify-content: space-evenly;
 }
 
 
