@@ -18,7 +18,7 @@
     'text'
     'nav'; */
     place-items: center;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     
 
@@ -40,8 +40,6 @@
     border-radius: 10px;
     font-size: large;
     padding: 2%;
-    margin-left: 1%;
-    margin-right: 1%;
 }
 .possible_page {
     padding: 2%;
@@ -59,7 +57,6 @@
 .possible_page:hover {
     background-color:#e1cfca;
 }
-
 /* @media (max-width: 1000px) {
     .topbar {
         grid-template-areas:
@@ -70,7 +67,7 @@
 
 @media (min-width: 500px) {
     .topbar a {
-        padding: 7px;
+        padding: 2px;
     }
     .topbar nav {
         padding-top: 15px;
