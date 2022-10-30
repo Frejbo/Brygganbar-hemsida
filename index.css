@@ -94,15 +94,6 @@ body {
 .VarMat p {
     margin-bottom: 3%;
 }
-.varmat_text a p {
-    margin-top: 5%;
-    text-decoration: underline;
-}
-.varmat_text a {
-    margin-top: 3%;
-    box-shadow: 1px 2px 8px 0px rgba(46, 46, 46, 0.6);
-    text-decoration: none;
-}
 
 
 .eventkväll {
