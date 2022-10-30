@@ -33,15 +33,13 @@
     grid-template-rows: 1fr 1fr;
 } */
 
-body {
-    background-image: url("banner.webp");
-    background-size: cover;
-    background-position: 50%;
-    background-position-y: 80%;
-    background-attachment: fixed;
-}
 
 .start_image_page {
+    background-image: url("banner.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position-y: 25%;
     padding-top: 20vh;
     padding-bottom: 20vh;
     display: grid;
@@ -80,6 +78,7 @@ body {
     background-size: cover;
     color: wheat;
     place-content: center;
+    justify-content: space-evenly;
 }
 .varmat_text {
     padding: 5%;
@@ -97,15 +96,24 @@ body {
 
 
 .eventkväll {
+    background-image: url("eventkväll.webp");
+    background-size: cover;
+    background-position: center;
+    background-position-y: top;
+    background-attachment: fixed;
     color: wheat;
-    height: 50vh;
+    height: 60vh;
     text-align: center;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     place-items: center;
     justify-content: space-evenly;
 }
 
+footer {
+    height: 30vh;
+    background-color: #4A3535;
+}
 
 @media (max-width: 500px) {
     .VarMat {

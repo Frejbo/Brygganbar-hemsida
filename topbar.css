@@ -18,7 +18,9 @@
     'text'
     'nav'; */
     place-items: center;
-
+    position: fixed;
+    width: 100%;
+    
 
     /* position: fixed; */
     /* position: sticky; */

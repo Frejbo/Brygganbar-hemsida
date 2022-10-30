@@ -1,0 +1,16 @@
+.grid-grej {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+.öppettider {
+    color: wheat;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 30px;
+    box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.6);
+    padding: 30px;
+}
+.öppettider h1 {
+    text-decoration: underline;
+}
