@@ -37,15 +37,29 @@
 .start_image_page {
     background-image: url("banner.webp");
     background-size: cover;
-    background-position-y: 50%;
+    background-position: 50%;
+    background-position-y: 80%;
     background-attachment: fixed;
-    height: 80vh;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+.start_image_page div {
+    text-align: center;
+    color: wheat;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .VarMat img {
-    height: 30vh;
+    /* height: 30vh; */
+    max-height: 30vh;
+    width: 100%;
     border-radius: 40px;
-    margin: 2%;
+    margin: 10%;
     box-shadow: 1px 2px 16px black;
 }
 .image1 {grid-area: image1;}
@@ -55,20 +69,17 @@
     grid-template-areas:
     'varmat_text image2'
     'varmat_text image1';
+    padding: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
     align-items: center;
     background-image: url("bakgrund.webp");
-    background-position: 50%;
-    grid-template-columns: repeat(auto-fit, 60%);
     background-repeat: no-repeat;
     background-size: cover;
     color: wheat;
+    place-content: center;
 }
 .varmat_text {
-    margin: 10%;
-    /* margin-left: 10%;
-    margin-right: 10%; */
     padding: 5%;
     grid-area: varmat_text;
     background-color: rgba(0, 0, 0, 0.6);
@@ -79,9 +90,6 @@
     margin-bottom: 5%;
 }
 .VarMat p {
-    /* color: white; */
-
-    /* font-size: large; */
     margin-bottom: 3%;
 }
 .varmat_text a p {
@@ -95,11 +103,16 @@
 }
 
 
-@media (max-width: 350px) {
+@media (max-width: 500px) {
     .VarMat {
         grid-template-areas:
         'varmat_text'
         'image1'
         'image2';
+    }
+    .VarMat img {
+        margin: 0;
+        margin-top: 25px;
+        width: 100%;
     }
 }

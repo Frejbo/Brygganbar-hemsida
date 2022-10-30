@@ -23,7 +23,7 @@
 .pizza {
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 30px;
-    padding: 20px;
+    padding: 30px;
     align-self: center;
     margin: 1%;
     margin-top: 3%;
@@ -68,7 +68,7 @@
         grid-template-columns: 1fr 1fr;
     }
 }
-@media (max-width: 350px) {
+@media (max-width: 400px) {
     .pizzor {
         grid-template-columns: 1fr;
     }
